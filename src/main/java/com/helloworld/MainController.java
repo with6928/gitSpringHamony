@@ -72,7 +72,6 @@ public class MainController {
         return new ResponseEntity<String>("good", HttpStatus.OK);
     }
 
-
     @RequestMapping(value = "/dologin", method = RequestMethod.POST)
     public String login(HttpSession session, ModelMap modelMap,
                         @RequestParam("email") String email,
