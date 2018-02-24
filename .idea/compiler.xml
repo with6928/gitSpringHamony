@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springHarmony" />
         <module name="vueT1Ex" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springHarmony" target="1.5" />
       <module name="vueT1Ex" target="1.5" />
     </bytecodeTargetLevel>
   </component>
