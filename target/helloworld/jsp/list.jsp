@@ -44,7 +44,6 @@
 </head>
 <body>
 <h2>JSTL List Example</h2>
-
 <c:if test="${not empty names}">
     <ul>
         <c:forEach var="nameValue" items="${names}">
