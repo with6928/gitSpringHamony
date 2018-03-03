@@ -38,9 +38,6 @@ public class MainController {
     public ModelAndView list() {
 
         List<String> names = new ArrayList<String>();
-        names.add("민아");
-        names.add("박보검");
-        names.add("조인성");
         names.add("James");
         names.add("Lucas");
 
